@@ -3,6 +3,8 @@
  * @param {number} target
  * @return {number[][]}
  */
+
+//  used recursive approach to dynamically add and removing element
 var combinationSum = function(candidates, target) {
     candidates.sort((a,b)=>a-b);
     let result = [];
